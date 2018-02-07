@@ -5,7 +5,7 @@ class App extends Component {
   render() {
     return (
       <div className="footer">
-        © 2018 Copyright ecommerce. All rights reserved.
+        © 2018 Copyright eCommerce. All rights reserved.
       </div>
     );
   }
