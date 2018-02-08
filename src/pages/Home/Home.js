@@ -7,7 +7,7 @@ class Home extends Component {
   render() {
 
     return (
-      <div>
+      <div className='home-wrapper'>
         <div>
           Home
         </div>

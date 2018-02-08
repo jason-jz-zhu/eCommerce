@@ -1,4 +1,33 @@
-/* .icon-bar {
-    border: 1px solid;
-    color: #FFFFFF;
+.navbar-wrapper {
+  /* background-image: linear-gradient(to bottom,#3c3c3c 0,#222 100%); */
+  color: #ffffff;
+  box-shadow: 0 4px 20px 0px rgba(0, 0, 0, 0.14), 0 7px 12px -5px rgba(141,132,130, 0.46);
+  padding: 10px 0;
+}
+
+.navbar-center-wrapper {
+  font-weight: 400;
+  font-size: 12px;
+  text-transform: uppercase;
+  border-radius: 3px;
+  display: inline-block;
+  float: none;
+}
+
+@media (min-width: 1200px) {
+  .container {
+      width: 1170px;
+  }
+}
+/*
+@media (min-width: 992px) {
+  .container {
+      width: 970px;
+  }
+}
+
+@media (min-width: 768px) {
+  .container {
+      width: 750px;
+  }
 } */

@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 // import { Link } from 'react-router';
-import { Navbar, Nav, NavItem, NavDropdown, MenuItem } from 'react-bootstrap';
+import { Navbar, Nav, NavItem } from 'react-bootstrap';
 
 import './Header.css';
 
@@ -9,31 +9,46 @@ class Header extends Component {
 
   render() {
     return (
-      <Navbar>
-        <Navbar.Header>
-          <Navbar.Brand>
-            <a href="#home">eCommerce</a>
-          </Navbar.Brand>
-          <Navbar.Toggle className="icon-bar" />
-        </Navbar.Header>
-        <Navbar.Collapse>
-          <Nav pullRight>
-            <NavItem eventKey={1} href="#">
-              Link
-            </NavItem>
-            <NavItem eventKey={2} href="#">
-              Link
-            </NavItem>
-            <NavDropdown eventKey={3} title="Dropdown" id="basic-nav-dropdown">
-              <MenuItem eventKey={3.1}>Action</MenuItem>
-              <MenuItem eventKey={3.2}>Another action</MenuItem>
-              <MenuItem eventKey={3.3}>Something else here</MenuItem>
-              <MenuItem divider />
-              <MenuItem eventKey={3.4}>Separated link</MenuItem>
-            </NavDropdown>
-          </Nav>
-        </Navbar.Collapse>
-      </Navbar>
+      <div>
+        <Navbar fixedTop className='navbar-wrapper'>
+          <div className='container'>
+            <Navbar.Header>
+              <Navbar.Brand>
+                <a href="#home">eCommerce</a>
+              </Navbar.Brand>
+              <Navbar.Toggle className="icon-bar" />
+            </Navbar.Header>
+            <Navbar.Collapse>
+              <Nav pullRight className='navbar-center-wrapper'>
+                <NavItem href="#">
+                  HOME
+                </NavItem>
+                <NavItem href="#">
+                  ABOUT US
+                </NavItem>
+                <NavItem href="#">
+                  PRODUCTS
+                </NavItem>
+                <NavItem href="#">
+                  CONTACT US
+                </NavItem>
+                <NavItem href="#">
+                  <i className="fa fa-facebook-square fa-lg" aria-hidden="true" />
+                </NavItem>
+                <NavItem href="#">
+                  <i className="fa fa-google-plus-square fa-lg" aria-hidden="true" />
+                </NavItem>
+                <NavItem href="#">
+                  <i className="fa fa-twitter-square fa-lg" aria-hidden="true" />
+                </NavItem>
+                <NavItem href="#">
+                  <i className="fa fa-linkedin-square fa-lg" aria-hidden="true" />
+                </NavItem>
+              </Nav>
+            </Navbar.Collapse>
+          </div>
+        </Navbar>
+      </div>
     );
   }
 }
