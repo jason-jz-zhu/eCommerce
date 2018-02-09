@@ -1,3 +1,65 @@
 .home-wrapper {
   padding-top: 70px;
+  background: #FFF;
+}
+
+.line {
+  border-bottom: 1px solid #ddd;
+}
+
+.best-section {
+  padding: 80px 0;
+  text-align: center;
+}
+
+.best-section .info {
+  max-width: 360px;
+  margin: 0 auto;
+  padding: 70px 0 30px;
+}
+
+.best-section .info .info-title {
+    margin-top: 30px;
+}
+
+.best-section h2 {
+    margin-bottom: 30px;
+}
+
+.best-section .info p {
+    font-size: 16px;
+    line-height: 1.6em;
+    color: #999999;
+}
+
+.best-section .title,
+.best-section .info-title {
+  font-weight: 700;
+  font-family: "Roboto Slab", "Times New Roman", serif;
+}
+
+.best-section .title,
+.best-section .info-title {
+  color: #3C4858;
+  text-decoration: none;
+}
+
+.best-section .description {
+  color: #999999;
+}
+
+.icon.icon-info {
+    color: #00bcd4;
+}
+
+.icon.icon-success {
+    color: #4caf50;
+}
+
+.icon.icon-warning {
+    color: #ff9800;
+}
+
+.icon.icon-danger {
+    color: #f44336;
 }
