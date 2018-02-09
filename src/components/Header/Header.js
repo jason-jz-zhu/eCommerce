@@ -9,7 +9,7 @@ class Header extends Component {
 
   render() {
     return (
-      <div>
+      <header>
         <Navbar fixedTop className='navbar-wrapper'>
           <div className='container'>
             <Navbar.Header>
@@ -48,7 +48,7 @@ class Header extends Component {
             </Navbar.Collapse>
           </div>
         </Navbar>
-      </div>
+      </header>
     );
   }
 }
