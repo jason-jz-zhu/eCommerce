@@ -1,0 +1,142 @@
+.product-section {
+  text-align: center;
+  padding: 80px 0;
+}
+
+.product-section .title {
+  margin-top: 10px;
+}
+
+h2.title {
+  margin-bottom: 30px;
+}
+
+.product-section .tab-space {
+  padding: 20px 0 50px 0px;
+}
+
+.nav-pills > li > a {
+    line-height: 24px;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 500;
+    min-width: 100px;
+    text-align: center;
+    color: #555555;
+    transition: all .3s;
+}
+
+.nav-pills > li > a:hover {
+    background-color: rgba(200, 200, 200, 0.2);
+}
+
+.nav-pills > li i {
+    display: block;
+    font-size: 30px;
+    padding: 15px 0;
+}
+
+.nav-pills > li.active > a, .nav-pills > li.active > a:focus, .nav-pills > li.active > a:hover {
+    background-color: #9c27b0;
+    color: #FFFFFF;
+    box-shadow: 0 5px 20px 0px rgba(0, 0, 0, 0.2), 0 13px 24px -11px rgba(156, 39, 176, 0.6);
+}
+
+.nav-pills:not(.nav-pills-icons) > li > a {
+    border-radius: 30px;
+}
+
+.nav-pills.nav-stacked > li + li {
+    margin-top: 5px;
+}
+
+.nav-pills.nav-pills-info > li.active > a, .nav-pills.nav-pills-info > li.active > a:focus, .nav-pills.nav-pills-info > li.active > a:hover {
+    background-color: #00bcd4;
+    box-shadow: 0 5px 20px 0px rgba(0, 0, 0, 0.2), 0 13px 24px -11px rgba(0, 188, 212, 0.6);
+}
+
+.nav-pills.nav-pills-success > li.active > a, .nav-pills.nav-pills-success > li.active > a:focus, .nav-pills.nav-pills-success > li.active > a:hover {
+    background-color: #4caf50;
+    box-shadow: 0 5px 20px 0px rgba(0, 0, 0, 0.2), 0 13px 24px -11px rgba(76, 175, 80, 0.6);
+}
+
+.nav-pills.nav-pills-warning > li.active > a, .nav-pills.nav-pills-warning > li.active > a:focus, .nav-pills.nav-pills-warning > li.active > a:hover {
+    background-color: #ff9800;
+    box-shadow: 0 5px 20px 0px rgba(0, 0, 0, 0.2), 0 13px 24px -11px rgba(255, 152, 0, 0.6);
+}
+
+.nav-pills.nav-pills-danger > li.active > a, .nav-pills.nav-pills-danger > li.active > a:focus, .nav-pills.nav-pills-danger > li.active > a:hover {
+    background-color: #f44336;
+    box-shadow: 0 5px 20px 0px rgba(0, 0, 0, 0.2), 0 13px 24px -11px rgba(255, 152, 0, 0.6);
+}
+
+.nav-pills.nav-pills-rose > li.active > a, .nav-pills.nav-pills-rose > li.active > a:focus, .nav-pills.nav-pills-rose > li.active > a:hover {
+    background-color: #e91e63;
+    box-shadow: 0 5px 20px 0px rgba(0, 0, 0, 0.2), 0 13px 24px -11px rgba(233, 30, 99, 0.6);
+}
+
+.nav-pills-rose {
+  display: inline-block;
+}
+
+.product-section .card {
+    display: inline-block;
+    position: relative;
+    width: 100%;
+    margin-bottom: 30px;
+    border-radius: 6px;
+    color: rgba(0,0,0, 0.87);
+    background: #fff;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
+}
+
+.product-section .card-raised {
+    box-shadow: 0 16px 38px -12px rgba(0, 0, 0, 0.56), 0 4px 25px 0px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2);
+}
+
+
+.product-section .card-background {
+    background-position: center center;
+    background-size: cover;
+    text-align: center;
+}
+
+.product-section .card-background .card-content {
+    position: relative;
+    z-index: 2;
+    min-height: 280px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    max-width: 440px;
+    margin: 0 auto;
+}
+
+.product-section .card-background .category {
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.product-section .card-background  {
+    color: #FFFFFF;
+    margin-top: 10px;
+}
+
+.product-section .card-background:not(.card-pricing) .btn {
+    margin-bottom: 0;
+}
+
+.product-section .card-background:after {
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    display: block;
+    left: 0;
+    top: 0;
+    content: "";
+    background-color: rgba(0, 0, 0, 0.56);
+    border-radius: 6px;
+}
+
+.product-section .card .card-content {
+    padding: 15px 30px;
+}
