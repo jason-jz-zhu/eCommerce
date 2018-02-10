@@ -3,6 +3,7 @@ import { Row, Col } from 'react-bootstrap';
 import './Home.css';
 import Silde from '../../components/Carousel/Carousel';
 import Products from '../../components/Products/Products';
+import Subscribe from '../../components/Subscribe/Subscribe';
 
 class Home extends Component {
   render() {
@@ -52,6 +53,8 @@ class Home extends Component {
         </div>
         <div className='line'></div>
         <Products />
+        <div className='line'></div>
+        <Subscribe />
         <div className='line'></div>
       </div>
     );

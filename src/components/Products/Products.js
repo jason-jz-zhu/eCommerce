@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import classNames from 'classnames';
 import { Row, Col, Nav, NavItem } from 'react-bootstrap';
 import './Products.css';
+import Card from '../Card/Card';
 
 class Products extends Component {
   render() {
